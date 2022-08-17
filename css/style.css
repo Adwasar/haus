@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'LiberationSerif'; 
+    src: url('../fonts/LiberationSerif-Regular.ttf');
+}
+
+p {
+    font-size: 73px;
+}
+
+p.adwasd {
+    font-size: 73px;
+    font-family: 'LiberationSerif';
+}
