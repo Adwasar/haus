@@ -3,11 +3,17 @@
     src: url('../fonts/LiberationSerif-Regular.ttf');
 }
 
-p {
-    font-size: 73px;
+@font-face {
+    font-family: 'Roboto'; 
+    src: url('../fonts/Roboto-Regular.ttf');
 }
 
-p.adwasd {
+p.adwas1 {
     font-size: 73px;
-    font-family: 'LiberationSerif';
+    font-family: 'Roboto', sans-serif;
+}
+
+p.adwas2 {
+    font-size: 73px;
+    font-family: 'LiberationSerif', sans-serif;
 }
