@@ -32,3 +32,19 @@
     font-size: 14px;
     color: white;
 }
+
+.head_menu {
+    display: flex;
+    height: 96px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head_menu_left {
+    display: flex;
+}
+
+.head_menu_right {
+    display: flex;
+    justify-content: right;
+}
