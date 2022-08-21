@@ -14,9 +14,13 @@
     font-family: 'Roboto';
 }
 
-.head_wrapper {
-    height: 146px;
-    background-color: burlywood;
+.wrapper {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.head {
+    height: 946px;
 }
 
 .head_promo {
@@ -33,18 +37,59 @@
     color: white;
 }
 
+.head_background {
+    display: flex;
+    position: relative;
+    height: 800px;
+}
+
+.head_background_left {
+    background-image: url('../img/background/Rectangle.png');
+    background-size: 100%;
+    width: 50%;
+}
+
+.head_background_right {
+    background-color: #996B60;
+    width: 50%;
+}
+
 .head_menu {
+    position: relative;
+    top: -800px;
     display: flex;
     height: 96px;
     align-items: center;
     justify-content: space-between;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.head_menu ul {
+    display: flex;
 }
 
 .head_menu_left {
     display: flex;
 }
 
+.head_menu_left li {
+    margin-right: 65px;
+}
+
 .head_menu_right {
     display: flex;
     justify-content: right;
+}
+
+.head_menu_right li {
+    margin-left: 65px;
+}
+
+.head_content {
+    height: 800px;
+}
+
+ul {
+    list-style-type: none;
 }
