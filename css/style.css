@@ -70,6 +70,14 @@ a {
     font-size: 12px;
 }
 
+.logo {
+    position: absolute;
+    width: 84px;
+    height: 40px;
+    left: calc(50% - 84px/2);
+    top: 25px;
+}
+
 .head_menu ul {
     display: flex;
 }
@@ -96,7 +104,7 @@ a {
 }
 
 .head_content_container {
-    /* background-color:rgb(30, 85, 85); */
+    display: grid;
     position: relative;
     top: 277px;
     left: 60px;
@@ -112,9 +120,22 @@ a {
 }
 
 .head_content_container_text {
+    width: 572px;
     padding-top: 34px;
     position: sticky;
+    font-family: 'Roboto';
+    font-size: 18px;
     color: #ffffff;
+}
+
+.head_content_container button {
+    width: 180px;
+    height: 52px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    background-color: #996B60;
+    margin-top: auto;
 }
 
 ul {
