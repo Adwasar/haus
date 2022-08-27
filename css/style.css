@@ -19,13 +19,20 @@ a {
     color: #ffffff;
 }
 
+hr {
+    margin-top: 41px;
+    background-color: #BDBDBD;
+    height: 1px;
+    border: none;
+}
+
 .wrapper {
     max-width: 1320px;
     margin: auto;
 }
 
 .head {
-    height: 946px;
+    height: 850px;
 }
 
 .head_promo {
@@ -137,6 +144,25 @@ a {
     background-color: #996B60;
     margin-top: auto;
 }
+
+.under_head {
+    margin-top: 59px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.under_head img {
+    margin-top: 36px;
+    width: 300px;
+    height: 50px;
+}
+
+.under_head__food_wine, .under_head__the_new_yourk_times, .under_head__bon_appetit {
+    width: 330px;
+    text-align: center;
+    font-size: 18px;
+}
+
 
 ul {
     list-style-type: none;
