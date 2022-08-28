@@ -1,170 +1,221 @@
-@font-face {
-    font-family: 'Roboto'; 
-    src: url('../fonts/Roboto-Regular.ttf');
-}
+    @font-face {
+        font-family: 'Roboto'; 
+        src: url('../fonts/Roboto-Regular.ttf');
+    }
 
-@font-face {
-    font-family: 'LiberationSerif'; 
-    src: url('../fonts/LiberationSerif-Regular.ttf');
-}
+    @font-face {
+        font-family: 'LiberationSerif'; 
+        src: url('../fonts/LiberationSerif-Regular.ttf');
+    }
 
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto';
-}
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto';
+    }
 
-a {
-    text-decoration: none;
-    color: #ffffff;
-}
+    a {
+        text-decoration: none;
+        color: #ffffff;
+    }
 
-hr {
-    margin-top: 41px;
-    background-color: #BDBDBD;
-    height: 1px;
-    border: none;
-}
+    ul {
+        list-style-type: none;
+    }
 
-.wrapper {
-    max-width: 1320px;
-    margin: auto;
-}
+    hr {
+        margin-top: 41px;
+        background-color: #BDBDBD;
+        height: 1px;
+        border: none;
+    }
 
-.head {
-    height: 850px;
-}
+    .wrapper {
+        max-width: 1320px;
+        margin: auto;
+    }
 
-.head_promo {
-    height: 50px;
-    background-color: #191919;
-}
+    .head {
+        height: 850px;
+    }
 
-.head_promo_text {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    color: white;
-}
+    .head_promo {
+        height: 50px;
+        background-color: #191919;
+    }
 
-.head_content {
-    display: flex;
-    position: relative;
-    height: 800px;
-}
+    .head_promo_text {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        color: white;
+    }
 
-.head_background_left {
-    background-image: url('../img/background/Rectangle.png');
-    background-size: 100%;
-    width: 50%;
-}
+    .head_content {
+        display: flex;
+        position: relative;
+        height: 800px;
+    }
 
-.head_background_right {
-    background-color: #996B60;
-    width: 50%;
-}
+    .head_background_left {
+        background-image: url('../img/background/Rectangle.png');
+        background-size: 100%;
+        width: 50%;
+    }
 
-.head_menu {
-    position: relative;
-    top: -800px;
-    display: flex;
-    height: 96px;
-    align-items: center;
-    justify-content: space-between;
-    color: #ffffff;
-    font-size: 12px;
-}
+    .head_background_right {
+        background-color: #996B60;
+        width: 50%;
+    }
 
-.logo {
-    position: absolute;
-    width: 84px;
-    height: 40px;
-    left: calc(50% - 84px/2);
-    top: 25px;
-}
+    .head_menu {
+        position: relative;
+        top: -800px;
+        display: flex;
+        height: 96px;
+        align-items: center;
+        justify-content: space-between;
+        color: #ffffff;
+        font-size: 12px;
+    }
 
-.head_menu ul {
-    display: flex;
-}
+    .logo {
+        position: absolute;
+        width: 84px;
+        height: 40px;
+        left: calc(50% - 84px/2);
+        top: 25px;
+    }
 
-.head_menu_left {
-    display: flex;
-}
+    .head_menu ul {
+        display: flex;
+    }
 
-.head_menu_left li {
-    margin-right: 65px;
-}
+    .head_menu_left {
+        display: flex;
+    }
 
-.head_menu_right {
-    display: flex;
-    justify-content: right;
-}
+    .head_menu_left li {
+        margin-right: 65px;
+    }
 
-.head_menu_right li {
-    margin-left: 65px;
-}
+    .head_menu_right {
+        display: flex;
+        justify-content: right;
+    }
 
-.head_content {
-    height: 800px;
-}
+    .head_menu_right li {
+        margin-left: 65px;
+    }
 
-.head_content_container {
-    display: grid;
-    position: relative;
-    top: 277px;
-    left: 60px;
-    width: 600px;
-    height: 423px;
-}
+    .head_content {
+        height: 800px;
+    }
 
-.head_content_container_title {
-    padding-top: 35px;
-    font-size: 73px;
-    font-family: 'LiberationSerif';
-    color: #ffffff;
-}
+    .head_content_container {
+        display: grid;
+        position: relative;
+        top: 277px;
+        left: 60px;
+        width: 600px;
+        height: 423px;
+    }
 
-.head_content_container_text {
-    width: 572px;
-    padding-top: 34px;
-    position: sticky;
-    font-family: 'Roboto';
-    font-size: 18px;
-    color: #ffffff;
-}
+    .head_content_container_title {
+        padding-top: 35px;
+        font-size: 73px;
+        font-family: 'LiberationSerif';
+        color: #ffffff;
+    }
 
-.head_content_container button {
-    width: 180px;
-    height: 52px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #ffffff;
-    background-color: #996B60;
-    margin-top: auto;
-}
+    .head_content_container_text {
+        width: 572px;
+        padding-top: 34px;
+        position: sticky;
+        font-family: 'Roboto';
+        font-size: 18px;
+        color: #ffffff;
+    }
 
-.under_head {
-    margin-top: 59px;
-    display: flex;
-    justify-content: space-between;
-}
+    .head_content_container button {
+        width: 180px;
+        height: 52px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #ffffff;
+        background-color: #996B60;
+        margin-top: auto;
+    }
 
-.under_head img {
-    margin-top: 36px;
-    width: 300px;
-    height: 50px;
-}
+    .under_head {
+        margin-top: 59px;
+        display: flex;
+        justify-content: space-between;
+    }
 
-.under_head__food_wine, .under_head__the_new_yourk_times, .under_head__bon_appetit {
-    width: 330px;
-    text-align: center;
-    font-size: 18px;
-}
+    .under_head img {
+        margin-top: 36px;
+        width: 300px;
+        height: 50px;
+    }
 
+    .under_head__food_wine, .under_head__the_new_yourk_times, .under_head__bon_appetit {
+        width: 330px;
+        text-align: center;
+        font-size: 18px;
+    }
 
-ul {
-    list-style-type: none;
-}
+    .made_with_natural_ingredients_nothing_fake {
+        height: 1141px;
+        text-align: center;
+    }
 
+    .made_with_natural_ingredients_nothing_fake__title {
+        margin-top: 105px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 674px;
+        height: 160px;
+        font-family: 'LiberationSerif';
+        font-size: 64px;
+    }
+
+    .made_with_natural_ingredients_nothing_fake__title_under {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    .made_with_natural_ingredients_nothing_fake__cards {
+        margin-top: 82px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .made_with_natural_ingredients_nothing_fake__cards .card {
+        width: 382px;
+    }
+
+    .made_with_natural_ingredients_nothing_fake__cards .cards_name {
+        margin-top: 19px;
+        font-family: 'LiberationSerif';
+        font-size: 30px;
+    }
+
+    .made_with_natural_ingredients_nothing_fake__cards .cards_text {
+        margin-top: 16px;
+        font-size: 16px;
+    }
+
+    .made_with_natural_ingredients_nothing_fake__cards .cards_button {
+        margin-top: 27px;
+        width: 180px;
+        height: 52px;
+        background-color: #191919;
+        color: #fff;
+        text-transform: uppercase;
+        border-style: none;
+    }
+
+   
