@@ -60,7 +60,7 @@ hr {
 
 .head_background_left {
     background-image: url('../img/background/Rectangle.png');
-    background-size: 100%;
+    background-size: cover;
     width: 50%;
 }
 
@@ -346,4 +346,61 @@ hr {
 .we_do_things_differently_than_most_producer__learn_more {
     margin-top: 35px;
     font-size: 12px;
+}
+
+.over_footer {
+    text-align: center;
+    margin-top: 59px;
+    color: #fff;
+}
+
+.over_footer__background {
+    padding-top: 60px;
+    background-image: url('../img/background/Rectangle4.png');
+    background-size: cover;
+    height: 100%;
+    height: 568px;
+}
+
+.over_footer__set_the_mood {
+    position: static;
+    width: 550px;
+    height: 263px;
+    background-color: #000;
+}
+
+.over_footer__follow_us {
+    position: static;
+    margin-top: 20px;
+    width: 550px;
+    height: 125px;
+    background-color: #000;
+}
+
+.over_footer__set_the_mood {
+    padding-top: 40px;
+}
+
+.over_footer__set_the_mood__title {
+    font-family: 'LiberationSerif'; 
+    line-height: 80px;
+    font-size: 55px;
+}
+
+.over_footer__set_the_mood__text {
+    margin-top: 9px;
+    width: 412px;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.over_footer__set_the_mood button {
+    margin-top: 26px;
+    width: 180px;
+    height: 52px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-style: none;
 }
