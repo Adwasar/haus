@@ -370,10 +370,11 @@ hr {
 }
 
 .over_footer__follow_us {
+    padding-top: 28px;
     position: static;
     margin-top: 20px;
     width: 550px;
-    height: 125px;
+    height: 97px;
     background-color: #000;
 }
 
@@ -403,4 +404,22 @@ hr {
     font-size: 12px;
     text-transform: uppercase;
     border-style: none;
+}
+
+.over_footer__follow_us__title {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.over_footer__follow_us__links {
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.over_footer__follow_us__links a{
+    margin: 0px 18px;
 }
