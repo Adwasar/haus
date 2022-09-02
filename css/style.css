@@ -423,3 +423,8 @@ hr {
 .over_footer__follow_us__links a{
     margin: 0px 18px;
 }
+
+footer {
+    height: 617px;
+    background-color: #000;
+}
