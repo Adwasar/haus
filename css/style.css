@@ -29,6 +29,10 @@ hr {
     border: none;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .wrapper {
     max-width: 1320px;
     margin: auto;
@@ -427,4 +431,115 @@ hr {
 footer {
     height: 617px;
     background-color: #000;
+    color: #fff;
 }
+
+.footer_content {
+    position: relative;
+    top: 45px;
+    height: 532px;
+}
+
+.footer_content__maintext {
+    display: flex;
+    height: 368px;
+    justify-content: space-between;
+}
+
+.footer_content__maintext__stay_postid {
+    width: 440px;
+    height: 252px;
+}
+
+.footer_content__maintext__stay_postid h2 {
+    font-family: 'LiberationSerif'; 
+    font-size: 42px;
+    font-weight: 400;
+}
+
+.footer_content__maintext__stay_postid form {
+    margin-top: 14px;
+    display: flex;
+    width: 440px;
+    height: 53px;
+}
+
+.footer_content__maintext__stay_postid input {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #818181; 
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    outline: none;
+    }
+
+.footer_content__maintext__stay_postid button {
+    font-size: 12px;
+    background-color: #000;
+    color: #fff;
+    border-bottom: 1px solid #818181;
+    border-style: solid;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    text-transform: uppercase;
+
+}
+
+.footer_content__maintext__stay_postid__text {
+    width: 424px;
+    margin-top: 12px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.footer_content__maintext__navigation {
+    display: flex;
+    width: 660px;
+    height: 358px;
+    justify-content: space-between;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footer_content__maintext__navigation h4 {
+    font-weight: 400;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.footer_content__maintext__navigation li{
+    margin-bottom: 21px;
+    font-size: 12px;
+}
+
+.footer_content__maintext__navigation a{
+    color: rgba(255, 255, 255, 0.600);
+}
+
+.lower_links {
+    margin-top: 125px;
+    display: flex;
+}
+
+.lower_links h4{
+    font-weight: 400;
+    margin-right: 60px;
+}
+
+.lower_links ul {
+    display: flex;
+}
+
+.lower_links li {
+    margin-right: 60px;
+    font-size: 15px;
+}
+
+.lower_links li a {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.600);
+}
+
