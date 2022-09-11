@@ -5,4 +5,3 @@ headMenuLI.forEach(item => {
     item.innerHTML = item.innerHTML.toUpperCase();
 });
 
-// test 
